@@ -1,0 +1,114 @@
+@media (min-width: 760px) {
+    .tb__custom {
+        max-width: 80%;
+    }
+    .logo__agp__custom.tournament {
+        max-width: 80%;
+    }
+    .tb__header__logo>.logo__product {
+        width: 52px;
+    }
+    .search__box {
+        max-width: 540px;
+    }
+    .pagination {
+        justify-content: end;
+    }
+    .page__numbers>a {
+        padding: 8px 16px;
+    }
+    .box__content__table>.box__table {
+        max-width: 28.6%;
+    }
+}
+
+@media (min-width: 1140px) {
+    .tb__header {
+        flex-direction: row;
+    }
+    .logo__agp {
+        width: 201px;
+        padding: 60px 0;
+    }
+    .bg__cover__header {
+        background-size: inherit;
+        background-position-y: 20px;
+    }
+    .logo__agp__custom.tournament {
+        max-width: 1424px;
+    }
+    .logo__agp__custom.tournament>.tournament {
+        width: 128px;
+        padding: 40px 0 270px;
+    }
+    .tb__header__logo>.title {
+        font-size: 36px;
+    }
+    .tb__custom {
+        padding: 15px 32px;
+        border-radius: 40px;
+    }
+    .tb__header__logo>.logo__product {
+        width: 52px;
+    }
+    .search__box::before {
+        background-size: 20px;
+        height: 60px;
+        padding: 0 40px;
+    }
+    .search__box>input {
+        max-width: 540px;
+        height: 60px;
+        border-radius: 18px;
+        font-size: 18px;
+    }
+    .box__table {
+        font-size: 20px;
+        height: 73px;
+    }
+    .box__content__header>.box__table {
+        font-size: 24px;
+    }
+    .box__content__table>.box__table {
+        margin: 0 10px 12px 0;
+        border: 3px solid #FFEAE2;
+    }
+    .box__content__header>.number::after,
+    .box__content__header>.user::after,
+    .box__content__header>.turnover::after {
+        width: 2px;
+        height: 50px;
+        top: 12px;
+    }
+    .box__content__table:nth-child(1)>.box__table.number::after,
+    .box__content__table:nth-child(2)>.box__table.number::after,
+    .box__content__table:nth-child(3)>.box__table.number::after {
+        width: 70px;
+        height: 70px;
+    }
+    .box__content__table>.box__reward::before {
+        content: '';
+        width: 27px;
+        height: 27px;
+        display: inline-block;
+        background: url(/asstets/img/icon/star_coin.webp) no-repeat 0/contain;
+        position: absolute;
+        left: 0;
+        right: 95px;
+        margin: 0 auto 4px;
+    }
+    .box__content__table:nth-child(1)>.box__reward::before,
+    .box__content__table:nth-child(2)>.box__reward::before,
+    .box__content__table:nth-child(3)>.box__reward::before {
+        background: url(/asstets/img/icon/reward_iocn.webp) no-repeat 0/contain;
+        width: 44px;
+        height: 44px;
+        right: 105px;
+    }
+}
+
+@media (min-width: 1420px) {
+    .tb__custom {
+        max-width: 1424px;
+    }
+}

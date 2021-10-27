@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tournament VIP</title>
+    <link rel="icon" href="/asstets/img/icon/tournament_meta_icon.webp">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/asstets/style/font-set.css">
+    <link rel="stylesheet" href="/asstets/style/style.css" />
+    <link rel="stylesheet" href="/asstets/style/breakpoint.css">
+</head>
+
+<body class="bg__cover">
+    <main>
+        <div class="logo__agp__custom">
+            <img src="/asstets/img/icon/ag_logo.webp" class="logo__agp" width="50" height="39" alt="ag+">
+        </div>
+        <section class="tb__custom">
+            <div class="tb__header">
+                <div class="tb__header__logo">
+                    <img src="/asstets/img/icon/slot_icon.webp" width="43" height="43" class="logo__product" alt="slot">
+                    <span class="title">slot</span>
+                </div>
+                <div class="search__box">
+                    <input id="myInput" type="text" placeholder="ค้นหา user ของคุณ..." />
+                </div>
+            </div>
+
+            <div class="box__content box__content__custom">
+                <ul class="box__content__header">
+                    <li class="box__table header__number number">อันดับ</li>
+                    <li class="box__table user">ยูสเซอร์</li>
+                    <li class="box__table turnover">เทิร์นโอเวอร์</li>
+                    <li class="box__table reward">รางวัล</li>
+                </ul>
+            </div>
+            <table class="box__content box__content__all" id="box__content__all">
+                <tbody id="box__content" class="box__content__rows"></tbody>
+            </table>
+            <div class="pagination">
+                <ul class="pagination__list">
+                    <li class="button__pre"> ก่อนหน้า </li>
+                    <li id="numbers" class="page__numbers"></li>
+                    <li class="button__next"> ถัดไป </li>
+                </ul>
+            </div>
+        </section>
+        <p class="footer__title">www.agplus.co</p>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="/asstets/js/script.js"></script>
+</body>
+
+</html>

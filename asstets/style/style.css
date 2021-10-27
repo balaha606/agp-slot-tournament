@@ -1,0 +1,303 @@
+html {
+    min-height: 100%;
+    height: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'sukhumvit_set';
+    color: #000;
+    font-weight: 500;
+}
+
+.logo__agp {
+    max-width: 100%;
+    height: auto;
+    padding: 42px 0;
+}
+
+.logo__agp__custom.tournament {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1424px;
+    padding: 0 15px;
+}
+
+.logo__agp__custom.tournament>.tournament {
+    padding: 40px 0 210px;
+}
+
+.tb__custom {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 15px 10px;
+    overflow: hidden;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tb__header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tb__header__logo {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 16px 0 24px;
+}
+
+.tb__header__logo>.logo__product {
+    width: 42px;
+    height: auto;
+}
+
+.tb__header__logo>.title {
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 16px;
+}
+
+.box__content__custom {
+    background: #9945CF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.box__content__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.box__content__header>.box__table {
+    font-weight: 700;
+    font-size: 14px;
+    position: relative;
+    max-width: 29%;
+    flex: 0 0 29%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box__content__header>.number::after,
+.box__content__header>.user::after,
+.box__content__header>.turnover::after {
+    content: '';
+    width: 1px;
+    height: 23px;
+    right: -4px;
+    background: #fff;
+    position: absolute;
+}
+
+.box__content {
+    width: 100%;
+}
+
+.box__content__table {
+    display: flex;
+}
+
+.box__table {
+    text-align: center;
+    font-size: 12px;
+    height: 38px;
+}
+
+.box__content__table>.box__table {
+    border-radius: 5px;
+    border: 2px solid #FFEAE2;
+    margin: 0 4px 8px 0;
+    max-width: 29%;
+    flex: 0 0 29%;
+    align-items: center;
+    display: grid;
+    position: relative;
+}
+
+.box__content__table:nth-child(1)>.box__table,
+.box__content__table:nth-child(2)>.box__table,
+.box__content__table:nth-child(3)>.box__table {
+    background: #FFEAE2;
+}
+
+.box__content__table:nth-child(1)>.box__table.number::after,
+.box__content__table:nth-child(2)>.box__table.number::after,
+.box__content__table:nth-child(3)>.box__table.number::after {
+    content: '';
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}
+
+.box__content__table:nth-child(1)>.box__table.number::after {
+    background-image: url(/asstets/img/icon/no1_icon.webp);
+}
+
+.box__content__table:nth-child(2)>.box__table.number::after {
+    background-image: url(/asstets/img/icon/no2_icon.webp);
+}
+
+.box__content__table:nth-child(3)>.box__table.number::after {
+    background-image: url(/asstets/img/icon/no3_icon.webp);
+}
+
+.box__content__table>.number {
+    max-width: 12%;
+    flex: 0 0 12%;
+}
+
+.box__table .number {
+    max-width: 12%;
+    flex: 0 0 12%;
+    position: relative;
+}
+
+.box__table.box__reward {
+    max-width: 27%;
+    flex: 0 0 30%;
+}
+
+.search__box {
+    width: 100%;
+    position: relative;
+}
+
+.search__box::before {
+    content: "";
+    background-image: url(/asstets/img/icon/search.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 13px;
+    background-color: #8696AE;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    right: 0;
+    padding: 0 20px;
+    height: 33px;
+}
+
+.search__box>input {
+    width: 100%;
+    background: #F1F4F6;
+    border: 0.31213px solid rgba(255, 255, 255, 0.4);
+    /* background: #cc1212; */
+    box-sizing: border-box;
+    box-shadow: inset -1.56065px -1.56065px 3.1213px #FAFBFF, inset 1.56065px 1.56065px 3.1213px #A6ABBD;
+    border-radius: 10px;
+    font-size: 10px;
+    color: #414B5A;
+    height: 33px;
+    padding: 8px 0 8px 24px;
+}
+
+.pagination {
+    padding: 16px 0;
+    margin: 8px 0 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page__numbers>a {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #F0F0F0;
+    color: #000;
+}
+
+.page__numbers {
+    padding: 0;
+    margin-left: auto;
+    list-style-type: none;
+    display: flex;
+}
+
+.page__numbers>a {
+    padding: 8px 0;
+    text-decoration: none;
+    opacity: .7;
+    font-size: 12px;
+    width: 28px;
+}
+
+.page__numbers>a:hover {
+    opacity: 1;
+}
+
+.page__numbers>a.active {
+    opacity: 1;
+    color: #333;
+    background: #9945CF;
+    color: #fff;
+}
+
+.pagination__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #F0F0F0;
+}
+
+.pagination__list>.button__pre,
+.pagination__list>.button__next {
+    cursor: pointer;
+    padding: 0 15px;
+    font-size: 12px;
+}
+
+.alert__information__found {
+    font-size: 1.5 rem;
+    font-weight: bold;
+    margin: 15px auto;
+    color: #cc1212;
+    display: none;
+}
+
+.footer__title {
+    padding: 60px 0 15px;
+    color: #fff;
+    margin: 0;
+}
+
+
+.bg__cover {
+    background-image: url(/asstets/img/bg/bg__cover/cover_tournament.jpg), url(/asstets/img/bg/bg__cover/cover_tournament_footer.jpg);
+    background-position: top, bottom;
+    background-size: 1920px;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background-repeat: no-repeat;
+}
+
+.box__content__header>.header__number {
+    max-width: 12%;
+    flex: 0 0 12%;
+}

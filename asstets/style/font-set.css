@@ -1,0 +1,10 @@
+@font-face { 
+    font-family: 'sukhumvit_set'; 
+    font-weight: normal;
+    font-style: normal;
+    src: url('/asstets/plugins/fonts/sukhumvitset-medium-webfont.eot')  format('eot'),
+                  url('/asstets/plugins/fonts/sukhumvitset-medium-webfont.woff')  format('woff'),
+                  url('/asstets/plugins/fonts/sukhumvitset-medium-webfont.woff2')  format('woff2'),
+                  url('/asstets/plugins/fonts/sukhumvitset-medium-webfont.ttf')   format('ttf'),
+                  url('/asstets/plugins/fonts/sukhumvitset-medium-webfont.svg')  format('svg'); 
+    }
